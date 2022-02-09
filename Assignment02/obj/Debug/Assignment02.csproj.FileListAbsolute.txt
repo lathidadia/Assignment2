@@ -1,0 +1,7 @@
+D:\conestoga\Quality\Assignment02\Assignment02\bin\Debug\Assignment02.exe.config
+D:\conestoga\Quality\Assignment02\Assignment02\bin\Debug\Assignment02.exe
+D:\conestoga\Quality\Assignment02\Assignment02\bin\Debug\Assignment02.pdb
+D:\conestoga\Quality\Assignment02\Assignment02\obj\Debug\Assignment02.csproj.AssemblyReference.cache
+D:\conestoga\Quality\Assignment02\Assignment02\obj\Debug\Assignment02.csproj.CoreCompileInputs.cache
+D:\conestoga\Quality\Assignment02\Assignment02\obj\Debug\Assignment02.exe
+D:\conestoga\Quality\Assignment02\Assignment02\obj\Debug\Assignment02.pdb
