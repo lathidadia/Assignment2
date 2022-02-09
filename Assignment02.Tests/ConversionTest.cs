@@ -126,5 +126,133 @@ namespace Assignment02.Tests
             Assert.AreEqual(10, result);
 
         }
+
+        [Test]
+        public void ConvertFahrenheitToKelvinTest1()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion();
+            //ACT
+            double result = conversion.ConvertFahrenheitToKelvin();
+            //ASSERT
+            Assert.AreEqual(255.93, result);
+
+        }
+
+        [Test]
+        public void ConvertFahrenheitToKelvinTest2()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(-7);
+            //ACT
+            double result = conversion.ConvertFahrenheitToKelvin();
+            //ASSERT
+            Assert.AreEqual(251.48, result);
+
+        }
+
+        [Test]
+        public void ConvertFahrenheitToKelvinTest3()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(270);
+            //ACT
+            double result = conversion.ConvertFahrenheitToKelvin();
+            //ASSERT
+            Assert.AreEqual(405.37, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToCelsiusTest1()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(25);
+            //ACT
+            double result = conversion.ConvertKelvinToCelsius();
+            //ASSERT
+            Assert.AreEqual(-248.15, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToCelsiusTest2()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(-25);
+            //ACT
+            double result = conversion.ConvertKelvinToCelsius();
+            //ASSERT
+            Assert.AreEqual(-298.15, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToCelsiusTest3()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(50);
+            //ACT
+            double result = conversion.ConvertKelvinToCelsius();
+            //ASSERT
+            Assert.AreEqual(-223.15, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToFahrenheitTest1()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(8);
+            //ACT
+            double result = conversion.ConvertKelvinToFahrenheit();
+            //ASSERT
+            Assert.AreEqual(-445, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToFahrenheitTest2()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(6);
+            //ACT
+            double result = conversion.ConvertKelvinToFahrenheit();
+            //ASSERT
+            Assert.AreEqual(-448.6, result);
+
+        }
+
+        [Test]
+        public void ConvertKelvinToFahrenheitTest3()
+
+        {
+
+            //ARRANGE
+            Conversion conversion = new Conversion(56);
+            //ACT
+            double result = conversion.ConvertKelvinToFahrenheit();
+            //ASSERT
+            Assert.AreEqual(-358.6, result);
+
+        }
+
+
     }
 }
