@@ -23,15 +23,16 @@ namespace Assignment02
 
         public double ConvertCelciusToFahrenheit()
         {
-            return ((x * 9 / 5) + 32);
+            double result = (x * ((double) 9 / 5)) + 32;
+            return result;
         }
         public double ConvertCelciusToKelvin()
         {
-            return x + 273.15;
+            return (double)x + 273.15;
         }
         public double ConvertKelvinToFahrenheit()
         {
-            return 9 / 5 * (x - 273) + 32;
+            return (double)9 / 5 * (x - 273) + 32;
         }
         public double ConvertKelvinToCelsius()
         {
@@ -39,11 +40,11 @@ namespace Assignment02
         }
         public double ConvertFahrenheitToKelvin()
         {
-            return (x + 459.67) * 5 / 9;
+            return (x + 459.67) * (double)5 / 9;
         }
         public double ConvertFahrenheitToCelsius()
         {
-            return (x - 32) * 5 / 9;
+            return (x - 32) * (double)5 / 9;
         }
     }
 }
